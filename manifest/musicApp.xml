@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Genre__c</members>
+        <members>Genre_Limit__mdt</members>
+        <members>Playlist__c</members>
+        <members>PlayList_Genre_Junction__c</members>
+        <members>Playlist_Song_Junction__c</members>
+        <members>Song__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Contact.Subscribe_to_new_songs__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contact-Contact Layout</members>
+        <members>Genre__c-Genre Layout</members>
+        <members>Genre_Limit__mdt-Genre Limit Layout</members>
+        <members>Playlist__c-Playlist Layout Locked</members>
+        <members>Genre_Limit__mdt-Genre Limit Layout</members>
+        <members>Playlist__c-Playlist Layout</members>
+        <members>PlayList_Genre_Junction__c-PlayList_Genre_Junction Layout</members>
+        <members>Playlist_Song_Junction__c-Playlist Song Junction Layout</members>
+        <members>Song__c-Song Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Genre_Limit__mdt.Genre_Limit.Max</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Create_Playlist_Screen_Flow</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>CountPlaylistGenres</members>
+        <members>CountPlaylistGenresTest</members>
+        <members>PlaylistSongHandler</members>
+        <members>PlaylistSongHelper</members>
+        <members>PlaylistSongTest</members>
+        <members>PlaylistValidation</members>
+        <members>PlaylistValidationTest</members>
+        <members>SongHandler</members>
+        <members>SongHelper</members>
+        <members>TestService</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>PlaylistSongTrigger</members>
+        <members>SongTrigger</members>       
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Genre_List</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Q_Music</members>
+        <name>CustomApplication</name>
+    </types>
+        <types>
+        <members>Contact_Record_Page</members>
+        <members>Playlist_Record_Page</members>
+        <members>Q_Music_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>50.0</version>
+</Package>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Playlist_Unlocked</fullName>
+    <active>true</active>
+    <label>Playlist Unlocked</label>
+    <picklistValues>
+        <picklist>Genre_s__c</picklist>
+        <values>
+            <fullName>Disco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrumental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jazz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
