@@ -1,7 +1,13 @@
-# After deploying the package to your org, open the "Q Music" aapp from the app launcher
-# Once the App is open, go to the contacts tab and open a contact. You'll be able to create a playlist from here.
-# You can add new songs from the "Songs" tab
-#
+After deploy the package to your org
+ 1) Assign the permission set "Music App Permission" to your user
+ 2) Go to Setup -> Object manager -> contact -> lightning record pages -> Contact record Page -> Assign to Q Music App
+ 3) for the contact object assign the page layout "Contact Layout" to your profile
+ 4) open the "Q Music" aapp from the app launcher
+ 5) Once the App is open, go to the contacts tab and open a contact. You'll be able to create a playlist from here.
+ 6) You can add new songs from the "Songs" tab
+ 7) Add songs to playlist from the contact record
+
+
 
 # Salesforce DX Project: Next Steps
 
