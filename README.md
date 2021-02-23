@@ -1,4 +1,4 @@
-After deploy the package to your org
+After deploying the package to your org
  1) Assign the permission set "Music App Permission" to your user
  2) Go to Setup -> Object manager -> contact -> lightning record pages -> Contact record Page -> Assign to Q Music App
  3) for the contact object assign the page layout "Contact Layout" to your profile
