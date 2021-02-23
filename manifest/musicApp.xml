@@ -71,5 +71,9 @@
         <members>Song__c</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>Music_App_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
     <version>50.0</version>
 </Package>
